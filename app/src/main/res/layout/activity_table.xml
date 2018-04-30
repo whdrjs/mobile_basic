@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:id="@+id/tableLay"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="2,3,4"
+    tools:context=".TableActivity">
+
+    <TextView
+        android:text="hummmm!"
+    />
+
+    <TableRow>
+
+        <TextView android:text="baegopa"
+            android:layout_column="1"/>
+        <EditText
+            android:id="@+id/edit98"
+            android:layout_column="3"
+            android:layout_span="2"
+            android:hint="hint" />
+    </TableRow>
+
+    <TableRow>
+        <Button
+            android:text="btn"
+            android:layout_column="2"
+            />
+        <Button
+            android:text="btn2"
+            android:layout_column="3"
+            />
+        <Button
+            android:text="btn3"
+            android:layout_column="4"
+            />
+    </TableRow>
+
+</TableLayout>
